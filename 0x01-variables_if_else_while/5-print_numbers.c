@@ -1,19 +1,15 @@
-#include <stdio.h> 
-  
- /** 
-  * main - prints decimal digits, 
-  * followed by a new line 
-  * Return: Always 0 (Success) 
-  */ 
- int main(void) 
- { 
-         int n; 
-  
-         while (n < 10) 
-         { 
-                 printf("%d", n); 
-                 n++; 
-         } 
-         printf("\n"); 
-         return (0); 
- }
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ * Return: 0
+ */
+int main(void)
+{
+	int a;
+
+	for (a = 0; a < 10; a++)
+	printf("%i", a);
+	printf("\n");
+	return (0);
+}
